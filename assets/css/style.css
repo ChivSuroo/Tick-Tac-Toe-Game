@@ -15,7 +15,7 @@
 }
 
 .title {
-    color: white;
+    color: #c42655;
     text-align: center;
     font-size: 37px;
     margin-top: 10%;
@@ -31,7 +31,8 @@
     color: white;
     font-size: 37px;
     text-align: center;
-    padding-top: 37px;
+    padding-top: 17px;
+    margin-top: 13px;
 }
 
 .hide {
@@ -91,6 +92,7 @@
 
 #reset {
     background-color: #c42655;
+
 }
 
 /* Webpage Description - How To Play */
@@ -104,23 +106,26 @@
     font-size: medium;
     text-align: center;
     line-height: 1.5;
+    margin-top: 11px;
 }
 
 /* Social Media Links */
 
-  .wrapper{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: #c42655;
+footer {
+    height: 150px;
   }
-  .wrapper .icon{
-    margin: 0 20px;
+  
+  .social-networks {
     text-align: center;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+  }
+  
+  .social-networks>li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 0%;
+    padding: 5%;
+    color: #c42655;
   }
