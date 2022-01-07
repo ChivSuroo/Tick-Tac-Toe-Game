@@ -19,12 +19,19 @@
     text-align: center;
     font-size: 37px;
     margin-top: 10%;
+    margin-bottom: 23px;
+}
+
+.wrapper {
+    margin-top: 16px;
+    margin-bottom: 23px;
 }
 
 .display {
     color: white;
     font-size: 37px;
     text-align: center;
+    padding-top: 37px;
 }
 
 .hide {
@@ -83,7 +90,7 @@
 }
 
 #reset {
-    background-color: #a0b3be;
+    background-color: #c42655;
 }
 
 /* Webpage Description - How To Play */
