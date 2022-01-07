@@ -98,3 +98,22 @@
     text-align: center;
     line-height: 1.5;
 }
+
+/* Social Media Links */
+
+  .wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #c42655;
+  }
+  .wrapper .icon{
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
