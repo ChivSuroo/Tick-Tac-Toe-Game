@@ -12,6 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const PLAYERO_WON = 'PLAYERO_WON';
     const TIE = 'TIE';
 
+    // Winning conditions
+
     const winningConditions = [
         [0, 1, 2],
         [3, 4, 5],
@@ -92,7 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    /* Board Reset */
+    // Board reset fuction (this is to clear the board once the game has finished)
 
     const resetBoard = () => {
         board = ['', '', '', '', '', '', '', '', ''];
